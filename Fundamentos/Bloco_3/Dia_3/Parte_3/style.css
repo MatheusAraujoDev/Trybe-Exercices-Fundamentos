@@ -1,0 +1,17 @@
+.centraliza {
+    text-align: center;
+}
+
+li:hover {
+    background-color: lawngreen;
+    width: 100px;
+}
+
+li:active {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.style-none {
+    list-style: none;
+}
