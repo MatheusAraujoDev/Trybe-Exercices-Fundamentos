@@ -1,1 +1,0 @@
-Exercícios do bloco 3, dia 2.
