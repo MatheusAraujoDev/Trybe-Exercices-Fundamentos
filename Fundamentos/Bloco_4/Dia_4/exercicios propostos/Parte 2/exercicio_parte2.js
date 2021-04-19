@@ -1,4 +1,4 @@
-//Exercicio 1 dúvida
+//Exercicio 1 
 // let param1 = [''];
 
 // function verificaPalindrome(param1) {
@@ -33,6 +33,19 @@
 // }
 // console.log(indiceMenorValor([6, 2, 3, 4, 5]));
 
+//Exercício 4
+// function maiorPalavra(palavras) {
+//     let maiorPalavra = palavras[0];
+//     for (let indice in palavras) {
+//       if (maiorPalavra.length < palavras[indice].length) {
+//         maiorPalavra = palavras[indice];
+//       }
+//     }
+//     return maiorPalavra;
+//   }
+  
+//   console.log(maiorPalavra(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+
 // Exercicio 6 
 // function somatorio(numeros) {
 //   let soma = 0;
@@ -43,7 +56,15 @@
 // }
 // console.log(somatorio(5));
 
-let names = ['João', 'Maria', 'Antônio', 'Margarida'];
-for(let elementos of names) {
-    console.log(elementos);
-}
+//Exercicio 7
+// function verificaFimPalavra(palavra, fimPalavra) {
+//     palavra = palavra.split('');
+//     fimPalavra = fimPalavra.split('');
+//     controle = true;
+//     for (let index = 0; index < fimPalavra.length; index += 1) {
+//       if (palavra[palavra.length - fimPalavra.length + index] != fimPalavra[index]) {
+//         controle = false;
+//       }
+//     }
+//     return controle;
+//   }
