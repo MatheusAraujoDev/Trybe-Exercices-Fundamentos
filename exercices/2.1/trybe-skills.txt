@@ -1,7 +1,0 @@
-O que vou aprender na Trybe:
-
--Unix
--Bash
--Git
-habilidade 1
-habilidade 2
