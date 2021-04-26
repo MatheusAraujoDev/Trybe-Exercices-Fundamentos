@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Bloco 6 Dia 3</title>
+    <style>
+
+       /* Os enunciados dos exercícios estão presentes neste link https://github.com/tryber/exercise-tech-gallery */
+
+
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .header-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color:dimgray;
+        width: 100%;
+      }
+
+      .header-img {
+        width: 60px;
+      }
+
+      .first-section-text {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 100%;
+      }
+
+      .all-pictures {
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        margin: 20px auto 10px auto;
+        width: 50%;
+      }
+
+      .picture-div {
+        display: flex;
+        align-items: center;
+        height: 200px;
+        width: 220px;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 15px;
+        /* background-color: gray; */
+        margin-top: 40px;
+      }
+
+      .gallery-images {
+        width: 100px;
+      }
+
+      .h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      h4 {
+        color:lightcyan;
+      }
+
+      .social {
+        width: 30px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+      }
+
+    </style>
+</head>
+<body>
+  <header class="header-container">
+    <img class="header-img" src="./trybelogo.jpg" alt="">
+    <p>TRYBE TECH-GALLERY</p>
+    <a href="https://www.betrybe.com/" target="_blank"><h4>SIGN-UP</h4></a>
+  </header>
+  <section class="first-section-text">
+    <p>Take a look at some of the technologies which you will learn in our fundamentals and front-end module!</p>
+  </section>
+  <section class="all-pictures">
+    <div class="picture-div">
+      <h3>HTML5</h3>
+      <img class="section-images" src="./htmllogo.png" alt="">
+    </div>
+    <div class="picture-div">
+      <h3>CSS3</h3>
+      <img class="section-images" src="./css3.png" alt="">
+    </div>
+    <div class="picture-div">
+      <h3>JAVASCRIPT</h3>
+      <img class="section-images" src="./jslogo.jpeg" alt="">
+    </div>
+    <div class="picture-div">
+      <h3>REACT</h3>
+      <img class="section-images" src="./reactlogo.png" alt="">
+    </div>
+    <div class="picture-div">
+      <h3>RTL</h3>
+      <img class="section-images" src="./rtllogo.jpeg" alt="">
+    </div>
+    <div class="picture-div">
+      <h3>REDUX</h3>
+      <img class="section-images" src="./reduxlogo.png" alt="">
+    </div>
+  </section>
+  <footer>
+    <a href="https://www.instagram.com/betrybe/" target="_blank">
+      <img class="social" src="./instagramlogo.jpeg" alt="Instagram logo" />
+    </a>
+    <a href="https://www.linkedin.com/school/betrybe/" target="_blank">
+      <img class="social" src="./linkedinlogo.jpeg" alt="Instagram logo" />
+    </a>
+  </footer>
+</body>
+</html>
