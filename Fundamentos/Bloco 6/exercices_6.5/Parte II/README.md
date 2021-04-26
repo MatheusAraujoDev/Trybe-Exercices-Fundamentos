@@ -1,0 +1,2 @@
+Exercício Parte II:
+Utilizando a abordagem mobile first e media queries , crie três versões de layout diferentes para essa página . Cada layout deve corresponder a um tamanho diferente de página (pequeno, médio e grande) .

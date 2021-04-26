@@ -1,0 +1,84 @@
+ html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-size: 1.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 3%;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .9em 0 0 0;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 1.5em 0 0 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    background-color:slategrey;
+    border-radius: 5px;
+    color: white;
+    margin: 0 0 25px 0;
+    padding: 10px;
+    text-align: center;
+
+}
+
+figcaption {
+    font-size: .8em;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color:forestgreen ;
+        margin: 25px 6%;
+        font-size: 1.4em;
+    }
+
+    figure {
+        float: left;
+        width: 45%;
+        margin-right: 4.5%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color:orangered;
+        margin: 25px 10%;
+        max-width: 1130px;
+        font-size: 1.7em;
+    }
+
+    figure {
+        width: 30%;
+        margin-right: 2.5%;
+    }
+}
+
+/* Realize as seguintes tarefas ajustando o CSS para melhorar a visualização de sua página:
+Faça o tamanho da fonte ser maior;
+Faça o tamanho da fonte dos elementos h1 ser menor;
+Aumente o espaçamento entre as figuras;
+Adicione um pouco de margin na página. */
+
+/* Crie um media query de dimensão mínima de 600 px e adicione os ajustes:
+Altere a cor de fundo (isso vai te ajudar a perceber quando a media query teve efeito) ;
+Ajuste o tamanho da fonte;
+Ajuste as margens da página;
+Faça as imagens serem mostradas em duas colunas. */
+
+/* Crie um media query de dimensão 1000px e adicione os ajustes::afterAltere a cor de fundo;
+Ajuste o tamanho da fonte;
+Ajuste as margens da página;
+Adicione a propriedade max-width à página, para garantir que a largura das linhas não fique muito grande. */
