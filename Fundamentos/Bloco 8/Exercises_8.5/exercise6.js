@@ -8,7 +8,7 @@ const palio = ['Palio', 'Fiat', 2019];
 const shelbyCobra = ['Shelby Cobra', 'Ford', 1963];
 const chiron = ['Chiron', 'Bugatti', 2016];
 
-// escreva toObject abaixo
+// escreva toObject abaixoo
 const toObject = ([name, brand, year]) => ({ name, brand, year });
 
 assert.deepStrictEqual(toObject(palio), { name: 'Palio', brand: 'Fiat', year: 2019 });
